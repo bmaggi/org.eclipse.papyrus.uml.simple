@@ -41,7 +41,7 @@
     <requirement
         name="org.eclipse.papyrus.uml.configuration.simplified.feature.feature.group"/>
     <repository
-        url="file:/F:/BMA/SimpleUml/t0.1/org.eclipse.papyrus.uml.configuration.simplified.updatesite/"/>
+        url="http://bmaggi.github.io/org.eclipse.papyrus.uml.simple/updatesite/v0.0.1/"/>
   </setupTask>
   <setupTask
       xsi:type="setup:EclipseIniTask"
@@ -241,7 +241,7 @@
 		<repository
             url="${base.downloads.url}/modeling/mdt/papyrus/updates/releases/luna"/>			
           <repository
-              url="file:/F:/BMA/SimpleUml/t0.1/org.eclipse.papyrus.uml.configuration.simplified.updatesite/"/>
+              url="http://bmaggi.github.io/org.eclipse.papyrus.uml.simple/updatesite/v0.0.1/"/>
         </repositoryList>
       </targlet>
     </setupTask>
