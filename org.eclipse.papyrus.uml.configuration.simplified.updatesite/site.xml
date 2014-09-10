@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/org.eclipse.papyrus.uml.configuration.simplified.feature_1.0.0.201407301118.jar" id="org.eclipse.papyrus.uml.configuration.simplified.feature" version="1.0.0.201407301118">
-      <category name="simpleUML"/>
-   </feature>
-   <category-def name="simpleUML" label="Papyrus Configurations"/>
-</site>
