@@ -12,7 +12,15 @@
       <childRules xmi:id="_dwcpMBZFEeSzr5rzfsl7Yg"/>
       <paletteRules xmi:id="_K89jwBY_EeSzr5rzfsl7Yg" permit="false" element="clazz.group.*"/>
     </modelKinds>
+    <modelKinds xsi:type="configuration:PapyrusSyncTable" xmi:id="_KqtBUD5bEeSnHrSUDQ71Qg" name="View Table" icon="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/icons/nattablepageeditor.png" implementationID="PapyrusViewsTable" categories="_vUL7ABP7EeSS0oyATXohNA">
+      <modelRules xmi:id="_PrW3wD5bEeSnHrSUDQ71Qg">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </modelRules>
+      <owningRules xmi:id="_QGbqMD5bEeSnHrSUDQ71Qg">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </owningRules>
+    </modelKinds>
   </viewpoints>
   <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
-  <categories xmi:id="_vUL7ABP7EeSS0oyATXohNA" name="Simple UML"/>
+  <categories xmi:id="_vUL7ABP7EeSS0oyATXohNA" name="uml"/>
 </configuration:PapyrusConfiguration>
