@@ -21,5 +21,16 @@
             isCustomizable="true">
       </context>
    </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.diagram.wizards.templates">
+      <template
+            id="org.eclipse.papyrus.simple.uml.wizard.template"
+            language="uml"
+            name="Simple UML Pattern Singleton"
+            di_file="resources/templates/patternSingleton.di"
+            notation_file="resources/templates/patternSingleton.notation"            
+            file="resources/templates/patternSingleton.uml">
+      </template>
+   </extension>
 
 </plugin>
