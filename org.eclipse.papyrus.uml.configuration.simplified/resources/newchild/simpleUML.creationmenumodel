@@ -5,7 +5,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel"
     xmi:id="_-5Z5sN90EeOzMY8AIRUeqQ"
-    label="New Child">
+    label="New Simple Uml Child">
   <menu xsi:type="ElementCreationMenuModel:CreationMenu"
       xmi:id="_RzWnQBZUEeSzr5rzfsl7Yg"
       label="Association"
