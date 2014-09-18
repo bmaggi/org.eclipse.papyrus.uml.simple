@@ -41,7 +41,7 @@
     <requirement
         name="org.eclipse.papyrus.uml.configuration.simplified.feature.feature.group"/>
     <repository
-        url="http://bmaggi.github.io/org.eclipse.papyrus.uml.simple/updatesite/v0.0.1/"/>
+        url="http://bmaggi.github.io/org.eclipse.papyrus.uml.simple/updatesite/v0.0.2/"/>
   </setupTask>
   <setupTask
       xsi:type="setup:EclipseIniTask"
@@ -158,8 +158,7 @@
   <setupTask
       xsi:type="setup:VariableTask"
       name="git.checkout.branch"
-      value="${scope.project.stream.name}"
-      storePromptedValue="false"/>
+      value="${scope.project.stream.name}"/>
   <setupTask
       xsi:type="setup:VariableTask"
       name="eclipse.target.platform"
@@ -232,8 +231,8 @@
             name="org.eclipse.papyrus.uml.configuration.simplified.feature.feature.group"/>
         <repositoryList
             name="Luna">
-		<repository
-            url="${base.downloads.url}/modeling/mdt/papyrus/updates/releases/luna"/>			
+          <repository
+              url="${base.downloads.url}/modeling/mdt/papyrus/updates/releases/luna"/>
           <repository
               url="http://bmaggi.github.io/org.eclipse.papyrus.uml.simple/updatesite/v0.0.1/"/>
         </repositoryList>
