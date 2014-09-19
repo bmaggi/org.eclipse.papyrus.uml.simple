@@ -33,6 +33,8 @@
         url="http://download.eclipse.org/modeling/emft/ecoretools/updates/1.2/201306071421"/>
     <repository
         url="http://download.eclipse.org/technology/swtbot/snapshots"/>
+  <repository
+	  url="${base.downloads.url}/modeling/mdt/papyrus/updates/releases/luna/1.0.1/"/>				
   </setupTask>
   <setupTask
       xsi:type="setup.p2:P2Task"
@@ -222,6 +224,8 @@
               url="${base.downloads.url}/webtools/downloads/drops/R3.6.0/R-3.6.0-20140602160322/repository"/>
           <repository
               url="${base.downloads.url}/nattable/releases/1.1.0/repository/"/>
+          <repository
+              url="${base.downloads.url}/modeling/mdt/papyrus/updates/releases/luna/1.0.1/"/>			  
         </repositoryList>
       </targlet>
       <targlet
@@ -232,9 +236,9 @@
         <repositoryList
             name="Luna">
           <repository
-              url="${base.downloads.url}/modeling/mdt/papyrus/updates/releases/luna"/>
+              url="${base.downloads.url}/modeling/mdt/papyrus/updates/releases/luna/1.0.1/"/>
           <repository
-              url="http://bmaggi.github.io/org.eclipse.papyrus.uml.simple/updatesite/v0.0.1/"/>
+              url="http://bmaggi.github.io/org.eclipse.papyrus.uml.simple/updatesite/v0.0.2/"/>
         </repositoryList>
       </targlet>
     </setupTask>

@@ -18,32 +18,32 @@ http://www.eclipse.org/legal/epl-v10.html
    </license>
 
    <requires>
-      <import feature="org.eclipse.papyrus.editor.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.infra.core.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.infra.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.infra.gmfdiag.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.infra.services.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.infra.widget.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.uml.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.uml.modelexplorer.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.uml.properties.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.uml.tools.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.views.modelexplorer.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.views.properties.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.uml.diagram.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.infra.emf.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.uml.textedit.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.xwt.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.infra.discovery.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.views.validation.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.doc.feature" version="1.0.0" match="equivalent"/>
-      <import feature="org.eclipse.papyrus.views.search.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.uml.search.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.uml.xtext.integration.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.infra.gmfdiag.css.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.uml.diagram.css.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.emf.facet.feature" version="1.0.0"/>
-      <import feature="org.eclipse.papyrus.infra.viewpoints.feature" version="1.0.0"/>
+      <import feature="org.eclipse.papyrus.editor.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.infra.core.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.infra.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.infra.gmfdiag.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.infra.services.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.infra.widget.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.uml.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.uml.modelexplorer.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.uml.properties.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.uml.tools.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.views.modelexplorer.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.views.properties.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.uml.diagram.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.infra.emf.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.uml.textedit.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.xwt.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.infra.discovery.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.views.validation.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.doc.feature" version="1.0.1" match="equivalent"/>
+      <import feature="org.eclipse.papyrus.views.search.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.uml.search.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.uml.xtext.integration.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.infra.gmfdiag.css.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.uml.diagram.css.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.emf.facet.feature" version="1.0.1"/>
+      <import feature="org.eclipse.papyrus.infra.viewpoints.feature" version="1.0.1"/>
    </requires>
 
    <plugin
