@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="PapyrusSimpleUml" uid="org.eclipse.papyrus.uml.configuration.simplified.product" id="org.eclipse.papyrus.uml.configuration.simplified.product" application="org.eclipse.ui.ide.workbench" version="0.0.2.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="PapyrusSimpleUml" uid="org.eclipse.papyrus.uml.configuration.simplified.product" id="org.eclipse.papyrus.uml.configuration.simplified.product" application="org.eclipse.ui.ide.workbench" version="0.0.3.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.eclipse.papyrus.rcp/icons/papyrus_lg.png"/>
@@ -49,6 +49,7 @@ Apache Software Foundation http://www.apache.org/
 
 
    <vm>
+      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7</windows>
    </vm>
 
    <license>
@@ -186,8 +187,8 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
    <features>
       <feature id="org.eclipse.platform"/>
       <feature id="org.eclipse.equinox.p2.user.ui"/>
-      <feature id="org.eclipse.rcp.configuration"/>
-      <feature id="org.eclipse.papyrus.uml.configuration.simplified.feature" version="0.0.2.qualifier"/>
+      <feature id="org.eclipse.papyrus.uml.configuration.simplified.feature" version="0.0.3.qualifier"/>
+      <feature id="org.eclipse.rcp" version="4.5.0.v20150320-0800"/>
    </features>
 
    <configurations>
@@ -201,5 +202,12 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
       <property name="org.eclipse.update.reconcile" value="false" />
       <property name="osgi.bundles.defaultStartLevel" value="4" />
    </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
 
 </product>
